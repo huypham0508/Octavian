@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  &-logo {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+  &-tools {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}

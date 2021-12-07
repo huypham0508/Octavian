@@ -1,0 +1,61 @@
+.icons {
+  margin-bottom: 200px;
+  &-title {
+    margin-bottom: 95px;
+  }
+  &-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+  &-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.818181;
+    color: $gray-light;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 130px 0;
+  }
+  &-icon {
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  &-text {
+    text-align: center;
+  }
+  &-primary {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: $gray;
+  }
+  &-secondary {
+    font-size: 18px;
+    color: $gray-light;
+    font-weight: 300;
+    line-height: 1.8888881;
+  }
+  &-items {
+    width: 370px;
+    height: 400px;
+    padding: 50px;
+  }
+}
+.first {
+  width: 370px;
+  height: 400px;
+  padding: 50px;
+  background-color: #514afe;
+  border-radius: 10px;
+  p,
+  h4 {
+    color: white;
+  }
+}

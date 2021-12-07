@@ -1,0 +1,54 @@
+.responsive {
+  position: relative;
+  margin-bottom: 450px;
+  &-background {
+    background-image: url(../img/bgresponsive.png);
+    height: 970px;
+    max-width: 1920px;
+  }
+  &-title {
+    position: absolute;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 195px;
+  }
+  &-heading,
+  &-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &-heading {
+    font-size: 44px;
+    color: white;
+    margin-bottom: 55px;
+  }
+  &-desc {
+    font-size: 22px;
+    color: $light;
+    line-height: 1.88881;
+  }
+  &-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-ipad {
+    position: absolute;
+    left: 305px;
+    top: 710px;
+    z-index: 3;
+  }
+  &-macbook {
+    position: absolute;
+    top: 480px;
+  }
+  &-iphone {
+    position: absolute;
+    right: 340px;
+    top: 730px;
+  }
+}

@@ -1,0 +1,43 @@
+.install {
+  margin-bottom: 260px;
+  &-list {
+    display: flex;
+    align-items: center;
+  }
+  &-title {
+    margin-right: 100px;
+  }
+  &-heading {
+    line-height: 1.56;
+    font-size: 44px;
+    margin-bottom: 60px;
+  }
+  &-more {
+    width: 490px;
+    height: 75px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    line-height: 1.81818181818;
+    font-size: 22px;
+  }
+  &-button {
+    margin: 0 auto;
+    a {
+      display: inline-flex;
+      align-items: center;
+      height: 55px;
+      padding: 0 60px;
+      background-color: $blue;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+  &-image {
+    img {
+      max-width: 760px;
+      max-height: 760px;
+      box-shadow: 0 30px 50px 10px #e7eef1;
+      border-radius: 20px;
+    }
+  }
+}

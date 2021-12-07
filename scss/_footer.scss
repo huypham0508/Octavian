@@ -1,0 +1,41 @@
+.footer {
+  &-base {
+    background-image: url(../img/basefooter.png);
+    height: 200px;
+    padding: 75px 0;
+  }
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    display: flex;
+    align-items: center;
+  }
+  &-more {
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px $gray-light solid;
+    color: white;
+    opacity: 70%;
+    span {
+      margin: 0 20px;
+      margin-top: 5px;
+      display: block;
+      color: #6a727f;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+  }
+  &-desc {
+    color: #6a727f;
+    font-size: 16px;
+  }
+  &-back {
+    position: fixed;
+    right: 120px;
+    bottom: 70px;
+    z-index: 3;
+  }
+}
